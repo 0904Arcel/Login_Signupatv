@@ -1,0 +1,447 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+/* LOGIN */
+.main_login{
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    background: transparent;
+    transition: 0.5s;
+}
+.main_login .ATVLOGO{
+
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 300px;
+    width: 500px;
+}
+.ATVLOGO img{
+    position: relative;
+    width: 410px;
+    height: 300px;
+}
+.logomo{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 370px;
+    height: 400px;
+    z-index: 2;
+}
+.shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index:1;
+    background: rgb(255,154,0);
+    background: linear-gradient(29deg, rgba(255,154,0,1) 10%, rgba(255,252,0,0.38139005602240894) 38%, rgba(255,222,0,0.20211834733893552) 100%, rgba(253,250,0,0.5802696078431373) 100%, rgba(255,209,0,0.2553396358543417) 100%);
+}
+.main_login .LOGIN{
+    width: 350px;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    top: 0px;
+    right: 0px;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 3;
+}
+.toplogin hr{
+    width: 80%;
+    height: 3px;
+    background-color: whitesmoke;
+}
+.LOGIN .toplogin{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0px;
+}
+.LOGIN .logologin{
+    width: 140px;
+    height: 150px;
+    position: relative;
+    top: 8px;
+    left: 3px;
+    margin: 0;
+    padding: 0;
+}
+.LOGIN h1{
+    position: relative;
+    margin-top: -0px;
+    width: 100%;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+.LOGIN .mid-login{
+    position: relative;
+    padding-top: 0px;
+    top: 220px;
+
+}
+.mid-login .inputbox_box{
+    width: 100%;
+    height: 50px;
+}
+.mid-login .inputbox_box input{
+    font-family: 'Fredoka', sans-serif;
+    width: 70%;
+    height: 60%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid rgb(255, 230, 0);
+}
+.mid-login .inputbox_box .Icon{
+    position: absolute;
+    right: 60px;
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+}
+.mid-login .remember-forgot{
+    font-family: 'Fredoka', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.mid-login .remember-forgot a{
+    color: rgb(223, 119, 0);
+    text-decoration:none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+}
+.mid-login .remember-forgot a:hover{
+    color: blue;
+}
+
+.mid-login .btn{
+    font-family: 'Black Ops One', cursive;
+    width: 230px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: rgb(255, 242, 55);
+}
+.mid-login .btn:hover{
+    box-shadow: 0 0 5px black;
+    letter-spacing: 3px;
+    font-size: 19px;
+    background-color: yellow;
+}
+.mid-login .Signup{
+    font-family: 'Fredoka', sans-serif;
+}
+.mid-login .Signup p a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: rgb(223, 119, 0);
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.mid-login .Signup p a:hover{
+    color: blue;
+    
+}
+.LOGIN .loginofadmin_tourguide{
+    width: 100%;
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    bottom: 0px;
+    position: absolute;
+    text-decoration: none;
+    background-color: rgb(252, 255, 71);
+    height: 19%;
+    padding-top: 5px;
+}
+.loginofadmin_tourguide .admin_signup{
+    width: 100%;
+    text-decoration: none;
+    text-decoration-style: none;
+    border-radius: 20px;
+    height: 70px;
+}
+.admin_signup:hover{
+    background-color: rgb(255, 207, 47);
+}
+.admin_signup a{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+}
+.admin_signup p{
+   width: 100%;
+}
+.admin_signup span{
+    position: relative;
+    color: rgb(200, 79, 35);
+    width: 30px;
+    top: 4px;
+    height: 30px;
+    justify-content: center; 
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+      
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+/* SIGNUP */
+
+/* SIGNUP *//* SIGNUP *//* SIGNUP *//* SIGNUP *//* SIGNUP *//* SIGNUP *//* SIGNUP *//* SIGNUP */
+
+/* SIGNUP */
+.main_signup{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background: rgb(255,154,0);
+    background: linear-gradient(90deg, rgba(255,154,0,1) 0%, rgba(255,252,0,1) 25%, rgba(255,222,0,1) 50%, rgba(253,250,0,1) 75%, rgba(255,209,0,1) 100%);
+}
+.signupna h1{   
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 3px;
+    font-size:45px;
+    width: 100%;
+    height: 50px;
+}
+.logomosignup{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 350px;
+    height: 400px;
+}
+.main_signup .signupna{
+    width: 670px;
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    top: 0px;
+    right: 0px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
+}
+.signupna .midsignup{
+    width: 100%;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: auto;
+}
+.midsignup .picprofile{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    z-index: 0;
+}
+.midsignup .inputs{
+    width: 100%;
+    right: 0px;
+    margin: 0;
+    padding-top: 10px;
+}
+.main_signup .bottomsignup{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(251, 255, 0);
+    align-items: center;
+}
+.bottomsignup .userpass{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.userpass input{
+    position: relative;
+    top: 0px;
+    margin-left: 10px;
+    margin-top: 15px;
+    outline: none;
+    color: black;
+    font-weight: bold;
+    background-color: yellow;
+    border-bottom: 2px solid rgb(255, 157, 0);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 80%;
+    height: 30px;
+    font-size: 13px;
+    font-family: 'Fredoka', sans-serif;
+}
+.bottomsignup .buttonsignup{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.signupna form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width:80px;
+    left: 30px;
+    top: -70px;
+    font-family: 'Fredoka', sans-serif;
+    height: 50px;
+  }
+  .signupna form ion-icon{
+      width: 40px;
+      height: 30px;
+  }
+  .signupna .btn_img{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+    height:50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    overflow: hidden;
+    background-color: rgb(119, 116, 116);
+    transition: 0.2s;
+    color:rgb(255, 208, 0);
+    
+  }
+  .signupna .btn_img:hover{
+    background-color: rgb(255, 208, 0);
+    color: black;
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+  }
+  input[type="file"] {
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(3);
+    opacity: 0;
+  }
+
+  .signupna  label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .signupna  label:hover {
+    background-color: #2980b9;
+  }
+  img#uploadedImage {
+    max-width: 300px;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .inputs .inputbox_boxSignup{
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-family: 'Fredoka', sans-serif;
+  }
+  .inputs .inputbox_boxSignup input{
+    width:80%;
+    height: 30px;
+    position: relative;
+    border:2px solid rgb(197, 164, 56);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    outline: none;
+    font-family: 'Fredoka', sans-serif;
+    z-index: 1;
+    font-size: 13px;
+  }
+  .inputs .inputbox_boxSignup h4{
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Fredoka', sans-serif;
+    z-index: 0;
+  }
+
+  .btnsignup{
+    width: 200px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(131, 131, 131);
+    background-color: rgb(255, 208, 0);
+    border: none;
+    font-family: 'Black Ops One', cursive;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btnsignup:hover{
+    background-color: rgb(255, 230, 0);
+    letter-spacing: 2px;
+  }
